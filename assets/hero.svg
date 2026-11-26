@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#071521"/><stop offset=".55" stop-color="#0A2533"/><stop offset="1" stop-color="#073B4C"/></linearGradient>
+ <linearGradient id="accent" x1="170" y1="70" x2="1010" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#67E8F9" stroke-opacity=".07"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
+<circle cx="1010" cy="55" r="110" fill="#06B6D4" fill-opacity=".15" filter="url(#glow)"/><circle cx="175" cy="300" r="100" fill="#0891B2" fill-opacity=".13" filter="url(#glow)"/>
+<path d="M0 280C180 220 270 340 470 274C680 205 760 300 930 245C1080 196 1130 210 1200 170V340H0V280Z" fill="#0E7490" fill-opacity=".16"/>
+<path d="M60 45H1140" stroke="#67E8F9" stroke-opacity=".18"/>
+<rect x="72" y="73" width="7" height="194" rx="3.5" fill="url(#accent)"/>
+<text x="112" y="145" fill="#E6F7FF" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700" letter-spacing="2">REZA HOUSHMAND</text>
+<text x="115" y="190" fill="#67E8F9" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" letter-spacing="3">FRONTEND DEVELOPER</text>
+<text x="115" y="231" fill="#B7CBD5" font-family="Arial,Helvetica,sans-serif" font-size="18">React  ·  JavaScript  ·  Tailwind CSS</text>
+<rect x="906" y="105" width="210" height="120" rx="18" fill="#071521" stroke="#22D3EE" stroke-opacity=".55"/>
+<text x="1011" y="154" text-anchor="middle" fill="#67E8F9" font-family="monospace" font-size="25" font-weight="700">&lt; / &gt;</text>
+<path d="M944 178H1078" stroke="#22D3EE" stroke-opacity=".35"/><text x="1011" y="202" text-anchor="middle" fill="#D7EAF0" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">BUILD · LEARN · IMPROVE</text>
+<text x="112" y="300" fill="#6B8795" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">GITHUB  /  R8E4Z8A4</text>
+</svg>
