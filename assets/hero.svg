@@ -1,20 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#071521"/><stop offset=".55" stop-color="#0A2533"/><stop offset="1" stop-color="#073B4C"/></linearGradient>
- <linearGradient id="accent" x1="170" y1="70" x2="1010" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#67E8F9" stroke-opacity=".07"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#06131F"/><stop offset=".55" stop-color="#0A2635"/><stop offset="1" stop-color="#064052"/></linearGradient>
+ <linearGradient id="cyan" x1="120" y1="50" x2="1080" y2="300"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#0891B2"/></linearGradient>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" stroke="#67E8F9" stroke-opacity=".08"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
 </defs>
-<rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
-<circle cx="1010" cy="55" r="110" fill="#06B6D4" fill-opacity=".15" filter="url(#glow)"/><circle cx="175" cy="300" r="100" fill="#0891B2" fill-opacity=".13" filter="url(#glow)"/>
-<path d="M0 280C180 220 270 340 470 274C680 205 760 300 930 245C1080 196 1130 210 1200 170V340H0V280Z" fill="#0E7490" fill-opacity=".16"/>
-<path d="M60 45H1140" stroke="#67E8F9" stroke-opacity=".18"/>
-<rect x="72" y="73" width="7" height="194" rx="3.5" fill="url(#accent)"/>
-<text x="112" y="145" fill="#E6F7FF" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700" letter-spacing="2">REZA HOUSHMAND</text>
-<text x="115" y="190" fill="#67E8F9" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" letter-spacing="3">FRONTEND DEVELOPER</text>
-<text x="115" y="231" fill="#B7CBD5" font-family="Arial,Helvetica,sans-serif" font-size="18">React  ·  JavaScript  ·  Tailwind CSS</text>
-<rect x="906" y="105" width="210" height="120" rx="18" fill="#071521" stroke="#22D3EE" stroke-opacity=".55"/>
-<text x="1011" y="154" text-anchor="middle" fill="#67E8F9" font-family="monospace" font-size="25" font-weight="700">&lt; / &gt;</text>
-<path d="M944 178H1078" stroke="#22D3EE" stroke-opacity=".35"/><text x="1011" y="202" text-anchor="middle" fill="#D7EAF0" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">BUILD · LEARN · IMPROVE</text>
-<text x="112" y="300" fill="#6B8795" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">GITHUB  /  R8E4Z8A4</text>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+<circle cx="1030" cy="75" r="100" fill="#06B6D4" fill-opacity=".18" filter="url(#blur)"><animate attributeName="r" values="88;112;88" dur="7s" repeatCount="indefinite"/></circle>
+<path d="M0 292C175 228 284 350 460 286S742 238 900 280S1090 300 1200 218V360H0Z" fill="#0891B2" fill-opacity=".15">
+ <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 292C175 228 284 350 460 286S742 238 900 280S1090 300 1200 218V360H0Z;M0 275C175 320 284 230 460 270S742 325 900 255S1090 240 1200 260V360H0Z;M0 292C175 228 284 350 460 286S742 238 900 280S1090 300 1200 218V360H0Z"/>
+</path>
+<path d="M60 44H1140" stroke="#67E8F9" stroke-opacity=".2"/>
+<rect x="72" y="78" width="7" height="196" rx="3.5" fill="url(#cyan)"/>
+<text x="112" y="151" fill="#E6F7FF" font-family="Arial,Helvetica,sans-serif" font-size="51" font-weight="700" letter-spacing="2">REZA HOUSHMAND</text>
+<text x="115" y="198" fill="#67E8F9" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" letter-spacing="3">FRONTEND DEVELOPER</text>
+<text x="115" y="239" fill="#B7CBD5" font-family="Arial,Helvetica,sans-serif" font-size="18">React  ·  TypeScript  ·  Tailwind CSS</text>
+<rect x="906" y="105" width="210" height="120" rx="18" fill="#071521" stroke="#22D3EE" stroke-opacity=".6"/>
+<text x="1011" y="158" text-anchor="middle" fill="#67E8F9" font-family="monospace" font-size="27" font-weight="700">&lt; / &gt;</text>
+<path d="M944 179H1078" stroke="#22D3EE" stroke-opacity=".4"/>
+<text x="1011" y="202" text-anchor="middle" fill="#D7EAF0" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">BUILD · LEARN · IMPROVE</text>
+<circle cx="860" cy="76" r="4" fill="#67E8F9"><animate attributeName="opacity" values=".2;1;.2" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="1140" cy="275" r="5" fill="#22D3EE"><animate attributeName="opacity" values="1;.25;1" dur="3.1s" repeatCount="indefinite"/></circle>
+<text x="112" y="314" fill="#6B8795" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="2">GITHUB  /  R8E4Z8A4</text>
 </svg>
