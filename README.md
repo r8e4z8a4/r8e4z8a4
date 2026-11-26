@@ -1,50 +1,67 @@
-<!--
-  GitHub Profile README
-  Reza Houshmand | @r8e4z8a4
-  Theme: Deep Navy + Cyan
--->
+<!-- GitHub Profile README | Reza Houshmand -->
 
 <div align="center">
   <img src="assets/hero.svg" width="100%" alt="Reza Houshmand — Frontend Developer" />
   <br/><br/>
-  <a href="https://github.com/r8e4z8a4"><img src="https://img.shields.io/badge/GitHub-r8e4z8a4-0B1722?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/r8e4z8a4"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B1722?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn"/></a>
-  <a href="mailto:rezahoushmand8484@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0B1722?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"/></a>
-  <a href="https://t.me/r8e4z8a4"><img src="https://img.shields.io/badge/Telegram-Message-0B1722?style=for-the-badge&logo=telegram&logoColor=22D3EE" alt="Telegram"/></a>
-  <a href="https://instagram.com/reza2006_84"><img src="https://img.shields.io/badge/Instagram-Follow-0B1722?style=for-the-badge&logo=instagram&logoColor=22D3EE" alt="Instagram"/></a>
+  <p>
+    <a href="https://github.com/r8e4z8a4"><img src="https://img.shields.io/badge/GitHub-Profile-0B1722?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub"/></a>
+    &nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/r8e4z8a4"><img src="https://img.shields.io/badge/LinkedIn-Connect-0B1722?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn"/></a>
+    &nbsp;&nbsp;
+    <a href="mailto:rezahoushmand8484@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-0B1722?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email"/></a>
+  </p>
+  <p>
+    <a href="https://t.me/r8e4z8a4"><img src="https://img.shields.io/badge/Telegram-Message-0B1722?style=for-the-badge&logo=telegram&logoColor=22D3EE" alt="Telegram"/></a>
+    &nbsp;&nbsp;
+    <a href="https://instagram.com/reza2006_84"><img src="https://img.shields.io/badge/Instagram-Follow-0B1722?style=for-the-badge&logo=instagram&logoColor=22D3EE" alt="Instagram"/></a>
+  </p>
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+modern+web+experiences;React+%26+JavaScript+developer;Currently+learning+TypeScript;Clean+code.+Responsive+design.+Continuous+growth." alt="Typing introduction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=650&lines=Crafting+modern+web+experiences;Frontend+Developer+%7C+React+%26+TypeScript;Focused+on+clean+code+and+great+UX" alt="Typing introduction"/>
 </div>
 
 ## About Me
 
-I'm a frontend developer focused on building modern, responsive, and user-friendly web applications.
+```ts
+interface Developer {
+  name: string;
+  role: string;
+  focus: string[];
+  principles: string[];
+}
 
-- Developing interactive interfaces with **React** and **JavaScript**
-- Building responsive layouts with **Tailwind CSS**
-- Connecting frontend applications to **REST APIs**
-- Paying attention to clean code, maintainable structure, and user experience
-- Currently learning **TypeScript** and applying it to my upcoming projects
-- Always exploring better ways to build and improve real-world applications
+const reza: Developer = {
+  name: "Reza Houshmand",
+  role: "Frontend Developer",
+  focus: [
+    "React",
+    "JavaScript",
+    "TypeScript",
+    "Responsive Web Design",
+    "REST API Integration",
+  ],
+  principles: [
+    "Clean & maintainable code",
+    "Scalable project structure",
+    "Thoughtful user experience",
+    "Continuous improvement",
+  ],
+};
+```
 
-> I take responsibility for frontend development and API integration in my featured projects. Backend development was handled separately.
+## Skills
 
-## Tech Stack
+**Languages & Frontend**
 
-**Currently working with**
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,vite,git,github&theme=dark" alt="HTML CSS JavaScript React Tailwind Vite Git GitHub"/>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind&theme=dark" alt="HTML CSS JavaScript TypeScript React Tailwind CSS"/>
 </p>
 
-**Currently learning**
+**Tools & Workflow**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript"/>
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=vite,git,github,vscode&theme=dark" alt="Vite Git GitHub Visual Studio Code"/>
 </p>
 
 ## Featured Projects
@@ -55,7 +72,6 @@ A responsive e-commerce frontend built with React and Tailwind CSS, integrated w
 
 <a href="https://r8e4z8a4.github.io/Online-Shop/"><img src="assets/online-shop-preview.svg" width="100%" alt="Online-Shop project preview"/></a>
 
-**Highlights**
 - Product categories, product details, and shopping cart
 - Checkout and order placement flow
 - User sign-up, sign-in, and authentication
@@ -64,9 +80,10 @@ A responsive e-commerce frontend built with React and Tailwind CSS, integrated w
 
 **Libraries:** React Router · Axios · React Leaflet · React Select · React Use · Sonner · Styled Components · Swiper · Zod · clsx · React Icons
 
-<div align="left">
-  <a href="https://r8e4z8a4.github.io/Online-Shop/"><img src="https://img.shields.io/badge/LIVE%20DEMO-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=071521" alt="Live demo"/></a>
-  <a href="https://github.com/r8e4z8a4/Online-Shop"><img src="https://img.shields.io/badge/SOURCE%20CODE-172B3A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Source code"/></a>
+<div align="center">
+  <a href="https://r8e4z8a4.github.io/Online-Shop"><img src="https://img.shields.io/badge/VIEW%20LIVE%20DEMO-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=071521" alt="Live demo"/></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/r8e4z8a4/Online-Shop"><img src="https://img.shields.io/badge/EXPLORE%20SOURCE-172B3A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Source code"/></a>
 </div>
 
 ---
@@ -77,7 +94,6 @@ A responsive content management dashboard built with React and Tailwind CSS, con
 
 <a href="https://r8e4z8a4.github.io/CMS-project/"><img src="assets/cms-project-preview.svg" width="100%" alt="CMS-project dashboard preview"/></a>
 
-**Highlights**
 - Dashboard with key statistics and charts
 - Product management
 - User management
@@ -87,9 +103,10 @@ A responsive content management dashboard built with React and Tailwind CSS, con
 
 **Libraries:** React Router · Recharts · React Loader Spinner · React Icons · clsx
 
-<div align="left">
-  <a href="https://r8e4z8a4.github.io/CMS-project/"><img src="https://img.shields.io/badge/LIVE%20DEMO-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=071521" alt="Live demo"/></a>
-  <a href="https://github.com/r8e4z8a4/CMS-project"><img src="https://img.shields.io/badge/SOURCE%20CODE-172B3A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Source code"/></a>
+<div align="center">
+  <a href="https://r8e4z8a4.github.io/CMS-project"><img src="https://img.shields.io/badge/VIEW%20LIVE%20DEMO-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=071521" alt="Live demo"/></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/r8e4z8a4/CMS-project"><img src="https://img.shields.io/badge/EXPLORE%20SOURCE-172B3A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Source code"/></a>
 </div>
 
 ## GitHub Analytics
@@ -107,17 +124,6 @@ A responsive content management dashboard built with React and Tailwind CSS, con
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=r8e4z8a4&bg_color=0B1722&color=D6E4EA&line=22D3EE&point=22D3EE&area=true&hide_border=true" alt="Contribution activity graph"/>
   <br/>
   <img width="100%" src="https://raw.githubusercontent.com/r8e4z8a4/r8e4z8a4/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation"/>
-</div>
-
-## Let's Connect
-
-I'm open to connecting with developers, exchanging ideas, and learning through building real projects.
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/r8e4z8a4"><img src="https://img.shields.io/badge/LinkedIn-0B1722?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn"/></a>
-  <a href="mailto:rezahoushmand8484@gmail.com"><img src="https://img.shields.io/badge/Gmail-0B1722?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Gmail"/></a>
-  <a href="https://t.me/r8e4z8a4"><img src="https://img.shields.io/badge/Telegram-0B1722?style=for-the-badge&logo=telegram&logoColor=22D3EE" alt="Telegram"/></a>
-  <a href="https://instagram.com/reza2006_84"><img src="https://img.shields.io/badge/Instagram-0B1722?style=for-the-badge&logo=instagram&logoColor=22D3EE" alt="Instagram"/></a>
 </div>
 
 <div align="center">
